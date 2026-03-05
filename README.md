@@ -31,38 +31,8 @@
 
 ### Estrutura de diretórios
 
-cypress
-│
-├── cucumber-json
-│   └── 01_login.cucumber.json
-│
-├── fixtures
-│
-├── integration
-│   └── gui
-│       └── 01_login.feature
-│
-├── plugins
-│   └── index.js
-│
-├── support
-│   │
-│   ├── elements
-│   │   └── Elements.js
-│   │
-│   ├── pages
-│   │   └── LoginPage.js
-│   │
-│   └── steps
-│       └── commands.js
-│
-├── report.js
-│
-├── cypress.config.js
-│
-├── package.json
-│
-└── README.md
+## 📁 Estrutura de Diretórios
+
 
 ### Padrões Utilizados
 
