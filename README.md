@@ -32,28 +32,32 @@
 ### Estrutura de diretórios
 
 ```bash
-cypress/
-├── cucumber-json/
-│   └── 01_login.cucumber.json
-├── fixtures/
-├── integration/
-│   └── gui/
-│       └── 01_login.feature
-├── plugins/
-│   └── index.js
-├── support/
-│   ├── elements/
-│   │   └── Elements.js
-│   ├── pages/
-│   │   └── LoginPage.js
-│   └── steps/
-│       └── commands.js
-├── report.js
+outsera-web-cypress-tarefa1
+│
+├── cypress
+│   ├── e2e/gui
+│   │   └── 01_login.feature
+│   │
+│   ├── reports
+│   │   └── cucumber-report.json
+│   │
+│   ├── support
+│   │   ├── elements
+│   │   │   └── Elements.js
+│   │   │
+│   │   ├── pages
+│   │   │   └── LoginPage.js
+│   │   │
+│   │   ├── step_definitions
+│   │   │   └── Steps.js
+│   │   │
+│   │   └── e2e.js
+│
+├── node_modules
 ├── cypress.config.js
 ├── package.json
 └── README.md
 ```
-
 
 ### Padrões Utilizados
 
